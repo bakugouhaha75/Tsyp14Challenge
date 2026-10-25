@@ -1,0 +1,586 @@
+{
+  "source": "power",
+  "seed": 0,
+  "n_test_sites": 7,
+  "standard_deployed": {
+    "witness": {
+      "step": {
+        "n": 168,
+        "detect": 0.1488095238095238,
+        "delay_median": 14.0
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.22023809523809523,
+        "delay_median": 45.0
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.5297619047619048,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 0.6150061500615006
+    },
+    "no_twin": {
+      "step": {
+        "n": 168,
+        "detect": 0.07142857142857142,
+        "delay_median": 19.5
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.10119047619047619,
+        "delay_median": 55.0
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.30952380952380953,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 0.4392901071867862
+    },
+    "physics_only": {
+      "step": {
+        "n": 168,
+        "detect": 0.2976190476190476,
+        "delay_median": 11.0
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.31547619047619047,
+        "delay_median": 51.0
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.42857142857142855,
+        "delay_median": 1.0
+      },
+      "false_alarms_per_1000d": 3.250746793182217
+    },
+    "own_history": {
+      "step": {
+        "n": 168,
+        "detect": 0.0,
+        "delay_median": NaN
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.0,
+        "delay_median": NaN
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.005952380952380952,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 0.0
+    }
+  },
+  "standard": {
+    "witness": {
+      "step": {
+        "n": 168,
+        "detect": 0.17261904761904762,
+        "delay_median": 10.0
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.24404761904761904,
+        "delay_median": 40.0
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.5714285714285714,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 1.7571604287471445
+    },
+    "no_twin": {
+      "step": {
+        "n": 168,
+        "detect": 0.17857142857142858,
+        "delay_median": 7.5
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.27380952380952384,
+        "delay_median": 37.5
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.4642857142857143,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 1.932876471621859
+    },
+    "physics_only": {
+      "step": {
+        "n": 168,
+        "detect": 0.24404761904761904,
+        "delay_median": 7.0
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.23809523809523808,
+        "delay_median": 54.5
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.34523809523809523,
+        "delay_median": 3.0
+      },
+      "false_alarms_per_1000d": 1.6693024073097875
+    },
+    "own_history": {
+      "step": {
+        "n": 168,
+        "detect": 0.03571428571428571,
+        "delay_median": 21.5
+      },
+      "drift": {
+        "n": 168,
+        "detect": 0.10119047619047619,
+        "delay_median": 30.0
+      },
+      "replay": {
+        "n": 168,
+        "detect": 0.19642857142857142,
+        "delay_median": 6.0
+      },
+      "false_alarms_per_1000d": 1.932876471621859
+    }
+  },
+  "layers": {
+    "step": {
+      "outsider_crypto": 1.0,
+      "insider_crypto": 0.0,
+      "physics": 0.17857142857142858
+    },
+    "drift": {
+      "outsider_crypto": 1.0,
+      "insider_crypto": 0.0,
+      "physics": 0.17857142857142858
+    },
+    "replay": {
+      "outsider_crypto": 1.0,
+      "insider_crypto": 0.0,
+      "physics": 0.4642857142857143
+    }
+  },
+  "overheads": {
+    "detector_ms_per_day": 0.1313754884994387,
+    "detector_peak_mb": 0.452011,
+    "sign_us_per_record": 2.942595837892835,
+    "verify_us_per_record": 2.6973630887068083,
+    "record_bytes": 177
+  },
+  "frontier": {
+    "step": {
+      "witness": [
+        {
+          "value": 0.02,
+          "detect": 0.07142857142857142,
+          "delay": 1.5
+        },
+        {
+          "value": 0.04,
+          "detect": 0.09523809523809523,
+          "delay": 11.5
+        },
+        {
+          "value": 0.06,
+          "detect": 0.11904761904761904,
+          "delay": 12.5
+        },
+        {
+          "value": 0.08,
+          "detect": 0.15476190476190477,
+          "delay": 12.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.20238095238095238,
+          "delay": 10.0
+        },
+        {
+          "value": 0.12,
+          "detect": 0.20238095238095238,
+          "delay": 12.0
+        },
+        {
+          "value": 0.15,
+          "detect": 0.20238095238095238,
+          "delay": 7.0
+        },
+        {
+          "value": 0.2,
+          "detect": 0.2857142857142857,
+          "delay": 11.0
+        }
+      ],
+      "no_twin": [
+        {
+          "value": 0.02,
+          "detect": 0.09523809523809523,
+          "delay": 1.5
+        },
+        {
+          "value": 0.04,
+          "detect": 0.15476190476190477,
+          "delay": 7.0
+        },
+        {
+          "value": 0.06,
+          "detect": 0.15476190476190477,
+          "delay": 10.0
+        },
+        {
+          "value": 0.08,
+          "detect": 0.15476190476190477,
+          "delay": 10.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.21428571428571427,
+          "delay": 9.5
+        },
+        {
+          "value": 0.12,
+          "detect": 0.20238095238095238,
+          "delay": 11.0
+        },
+        {
+          "value": 0.15,
+          "detect": 0.2261904761904762,
+          "delay": 6.0
+        },
+        {
+          "value": 0.2,
+          "detect": 0.2857142857142857,
+          "delay": 11.0
+        }
+      ],
+      "own_history": [
+        {
+          "value": 0.02,
+          "detect": 0.08333333333333333,
+          "delay": 5.0
+        },
+        {
+          "value": 0.04,
+          "detect": 0.07142857142857142,
+          "delay": 3.0
+        },
+        {
+          "value": 0.06,
+          "detect": 0.03571428571428571,
+          "delay": 4.0
+        },
+        {
+          "value": 0.08,
+          "detect": 0.05952380952380952,
+          "delay": 9.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.07142857142857142,
+          "delay": 4.5
+        },
+        {
+          "value": 0.12,
+          "detect": 0.07142857142857142,
+          "delay": 7.5
+        },
+        {
+          "value": 0.15,
+          "detect": 0.05952380952380952,
+          "delay": 1.0
+        },
+        {
+          "value": 0.2,
+          "detect": 0.047619047619047616,
+          "delay": 13.5
+        }
+      ]
+    },
+    "drift": {
+      "witness": [
+        {
+          "value": 30,
+          "detect": 0.16666666666666666,
+          "delay": 14.5
+        },
+        {
+          "value": 60,
+          "detect": 0.23809523809523808,
+          "delay": 32.0
+        },
+        {
+          "value": 120,
+          "detect": 0.2857142857142857,
+          "delay": 68.5
+        },
+        {
+          "value": 240,
+          "detect": 0.38095238095238093,
+          "delay": 128.5
+        },
+        {
+          "value": 480,
+          "detect": 0.35714285714285715,
+          "delay": 187.0
+        }
+      ],
+      "no_twin": [
+        {
+          "value": 30,
+          "detect": 0.19047619047619047,
+          "delay": 9.0
+        },
+        {
+          "value": 60,
+          "detect": 0.23809523809523808,
+          "delay": 32.5
+        },
+        {
+          "value": 120,
+          "detect": 0.32857142857142857,
+          "delay": 75.0
+        },
+        {
+          "value": 240,
+          "detect": 0.40476190476190477,
+          "delay": 146.0
+        },
+        {
+          "value": 480,
+          "detect": 0.42857142857142855,
+          "delay": 161.0
+        }
+      ],
+      "own_history": [
+        {
+          "value": 30,
+          "detect": 0.08333333333333333,
+          "delay": 5.0
+        },
+        {
+          "value": 60,
+          "detect": 0.05952380952380952,
+          "delay": 17.0
+        },
+        {
+          "value": 120,
+          "detect": 0.05714285714285714,
+          "delay": 77.0
+        },
+        {
+          "value": 240,
+          "detect": 0.14285714285714285,
+          "delay": 140.0
+        },
+        {
+          "value": 480,
+          "detect": 0.21428571428571427,
+          "delay": 176.0
+        }
+      ]
+    },
+    "replay_random": {
+      "witness": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.7738095238095238,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.7261904761904762,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.5714285714285714,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.14285714285714285,
+          "delay": 6.0
+        },
+        {
+          "value": 0.6,
+          "detect": 0.047619047619047616,
+          "delay": 5.5
+        }
+      ],
+      "no_twin": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.6428571428571429,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.6309523809523809,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.3333333333333333,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.10714285714285714,
+          "delay": 5.0
+        },
+        {
+          "value": 0.6,
+          "detect": 0.023809523809523808,
+          "delay": 5.5
+        }
+      ],
+      "own_history": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.3333333333333333,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.35714285714285715,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.03571428571428571,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.0,
+          "delay": NaN
+        },
+        {
+          "value": 0.6,
+          "detect": 0.0,
+          "delay": NaN
+        }
+      ]
+    },
+    "replay_season": {
+      "witness": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.5357142857142857,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.5238095238095238,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.2619047619047619,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.023809523809523808,
+          "delay": 4.5
+        },
+        {
+          "value": 0.6,
+          "detect": 0.011904761904761904,
+          "delay": 5.0
+        }
+      ],
+      "no_twin": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.4166666666666667,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.44047619047619047,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.14285714285714285,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.023809523809523808,
+          "delay": 5.0
+        },
+        {
+          "value": 0.6,
+          "detect": 0.011904761904761904,
+          "delay": 0.0
+        }
+      ],
+      "own_history": [
+        {
+          "value": 0.0,
+          "detect": 1.0,
+          "delay": 6.0
+        },
+        {
+          "value": 0.01,
+          "detect": 0.11904761904761904,
+          "delay": 6.0
+        },
+        {
+          "value": 0.03,
+          "detect": 0.08333333333333333,
+          "delay": 6.0
+        },
+        {
+          "value": 0.1,
+          "detect": 0.05952380952380952,
+          "delay": 6.0
+        },
+        {
+          "value": 0.3,
+          "detect": 0.0,
+          "delay": NaN
+        },
+        {
+          "value": 0.6,
+          "detect": 0.011904761904761904,
+          "delay": 0.0
+        }
+      ]
+    }
+  }
+}
